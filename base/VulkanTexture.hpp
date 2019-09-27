@@ -846,7 +846,7 @@ namespace vks
 			size_t offset = 0;
 
 			for (uint32_t face = 0; face < 6; face++)
-			{
+			{   
 				for (uint32_t level = 0; level < mipLevels; level++)
 				{
 					VkBufferImageCopy bufferCopyRegion = {};

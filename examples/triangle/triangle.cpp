@@ -364,7 +364,7 @@ public:
 	{
 		// A note on memory management in Vulkan in general:
 		//	This is a very complex topic and while it's fine for an example application to to small individual memory allocations that is not
-		//	what should be done a real-world application, where you should allocate large chunkgs of memory at once isntead.
+		//	what should be done a real-world application, where you should allocate large chunkgs of memory at once instead.
 
 		// Setup vertices
 		std::vector<Vertex> vertexBuffer = 
